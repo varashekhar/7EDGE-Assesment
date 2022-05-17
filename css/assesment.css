@@ -3,9 +3,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*home*/
-.navigationDiv{
-    height: 35vh; 
-}
 .logoDiv{
     width: 35%; 
     display: flex;
@@ -24,6 +21,7 @@
 }
 .navbar-nav{
     flex-direction: row-reverse !important;
+    color: white;
 }
 @media only screen and (max-width: 992px) {
     .logoDiv{
@@ -49,6 +47,7 @@
 @media only screen and (max-width: 768px) {
     .section1{
         text-align: center;
+        padding-top: 50%;
     }
     .section1_1{
         margin: auto;
