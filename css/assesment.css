@@ -2,6 +2,12 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.black{
+    position:fixed;
+    top:0;
+    background:transparent;
+    width:100%;
+  }
 /*home*/
 .logoDiv{
     width: 35%; 
@@ -15,6 +21,10 @@
 .nav-item{
     margin: 0 30 0 30;
     font-size: larger;
+    
+}
+.nav-link{
+    color: white;
 }
 .nav-item-last{
     margin-right: 50px;
@@ -23,18 +33,18 @@
     flex-direction: row-reverse !important;
     color: white;
 }
+
 @media only screen and (max-width: 992px) {
     .logoDiv{
         margin-left: 20px;
     }
-    .navigationDiv{
-        height: 55vh; 
-    }
     .navbar-nav {
         flex-direction: column-reverse !important;
         }
+    .about_us{
+        font-size: 1rem;
+    }
 }
-
 
 /*section1*/
 .section1_1{
@@ -47,7 +57,7 @@
 @media only screen and (max-width: 768px) {
     .section1{
         text-align: center;
-        padding-top: 50%;
+        padding-top: 10%;
     }
     .section1_1{
         margin: auto;
@@ -216,6 +226,17 @@
 .section8_1{
     width:80% ; margin :auto; padding: 50px 0;
 }
+.blog{
+    font-weight: bold;
+    font-size: medium;
+}
+.blog_content{
+    font-size:small;
+}
+.fontcolor{
+    color: rgb(78, 74, 74);
+}
+
 @media only screen and (max-width: 992px) {
     .approachHead{
         text-align: center !important;
@@ -246,6 +267,15 @@
 }
 .footer{
     padding-top: 50px;
+}
+.contact{
+    margin: 0 auto;
+}
+.contact li{
+    font-size: small;
+}
+.nav-links{
+    margin-right: 10px;
 }
 @media only screen and (max-width: 992px) {
     .footer{
