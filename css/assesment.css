@@ -16,7 +16,7 @@
     align-items: flex-end;
 }
 .navbarDiv{
-    width: 100%;
+    width: 70%;
 }
 .nav-item{
     margin: 0 30 0 30;
@@ -43,6 +43,22 @@
         }
     .about_us{
         font-size: 1rem;
+    }
+    .navbarDiv{
+        margin-top: 15px;
+        background-color: #6e6af3;
+    }
+    .myDIV{
+        height: 60px;
+    }
+    .navbarDiv , .log{
+        margin-left: 70%;     
+    }
+    .nav-link{
+        padding-left: 15px !important;
+    }
+    .navbar-collapse{
+        overflow: hidden;
     }
 }
 
@@ -148,9 +164,13 @@
 .hr1{
     width:50%;height: 2px ; background-color: #3d37f1;
 }
+.portfolio_content{
+    display: flex; flex-direction: column; padding-bottom: 10px;
+}
 @media only screen and (max-width: 768px) {
     .section4{
         text-align: center ;
+        padding-bottom: 0 ;
     }
     .hr1{
         margin: auto;
@@ -182,6 +202,11 @@
     border-radius: 25px; 
     padding: 40px;margin: 10px 0px; 
     box-shadow: 0px 3px 10px #ff8f53;
+}
+@media only screen and (max-width: 680px) {
+    .section5{
+        padding: 0px 50px;
+    }
 }
 
 /*section6*/
@@ -246,14 +271,23 @@
         justify-content: center;
         align-items: center;
     }
+    .section8_1{
+        padding: 0  ;
+    }
 }
 
 /*section9*/
 .section9{
     background-color: #fbfcfe;
+    padding: 50px 0;
 }
 .card222{
     border-style: none; width: 13rem; height: auto; margin: auto;
+}
+@media only screen and (max-width: 992px) {
+    .section9{
+        padding-bottom: 0;
+    }
 }
 
 /*section10*/
@@ -264,6 +298,11 @@
     width: 70%; 
     padding: 50px 0; 
     margin: auto;
+}
+@media only screen and (max-width: 992px) {
+    .section10_1{
+        padding: 20px 0;
+    }
 }
 .footer{
     padding-top: 50px;
