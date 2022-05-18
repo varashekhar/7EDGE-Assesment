@@ -20,7 +20,7 @@
             <div class="container-fluid"> 
               <div class="logoDiv">
                 <a class="navbar-brand" href="#" style="font-weight: bold; color: #070707; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">
-                  <span style="color: #3d37f1;">Web </span><span>Ui Expert</span> 
+                  <span class="weblogo" style="color: #3d37f1;">Web </span><span>Ui Expert</span> 
                 </a>
               </div>   
               <button class="navbar-toggler" onclick="myFunction()" style="color: rgb(237, 236, 236);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -696,9 +696,11 @@
             var scroll = $(window).scrollTop();
             if ( scroll > 50  ) {
                 $(".black").css("background" , "#6e6af3");
+                $(".weblogo").css("color" , "white");
             }
             else{
-                $(".black").css("background" , "transparent");  	
+                $(".black").css("background" , "transparent");
+                $(".weblogo").css("color" , " #3d37f1");  	
             }
         })
         })
